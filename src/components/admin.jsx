@@ -45,39 +45,41 @@ function Adm() {
       width: '15%',
       zIndex: '1000',
     }}>
+      <Link to='/'>
       <button
         style={buttonStyle(hoveredButton === 'dashboard')}
         onMouseEnter={() => setHoveredButton('dashboard')}
         onMouseLeave={() => setHoveredButton(null)}
       >
-        <Link to='/'>
+        
         Dashboard
-        </Link>
+
       </button>
+      </Link>
+      <Link to='/pll'>
       <button
         style={buttonStyle(hoveredButton === 'product')}
         onMouseEnter={() => setHoveredButton('product')}
         onMouseLeave={() => setHoveredButton(null)}
       >
-        <Link to='/pll'>
-        Product
-        </Link>
+      Product
       </button>
+      </Link>
+      <Link to ='/order'>
       <button
         style={buttonStyle(hoveredButton === 'purchases')}
         onMouseEnter={() => setHoveredButton('purchases')}
         onMouseLeave={() => setHoveredButton(null)}
       >
-        <Link to ='/order'>
-        orders
-        </Link>
+      orders
       </button>
+      </Link>
       <button
         style={buttonStyle(hoveredButton === 'reviews')}
         onMouseEnter={() => setHoveredButton('reviews')}
         onMouseLeave={() => setHoveredButton(null)}
       >
-        Reviews
+      Reviews
       </button>
     </div>
   );
