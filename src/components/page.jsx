@@ -6,7 +6,7 @@ import './page.css'
 
 const Page = (props) => {
   return (
-    <div className="page-container">
+    <div className="page-container" style={{marginLeft:'300px',height:'1000px'}}>
       <div className="page-admin-home">
         <img
           src={ad1}

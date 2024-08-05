@@ -4,7 +4,7 @@ import Adduu from './sneakerhead.png';
 
 function Products() {
   return (
-    <div style={{marginLeft:'300px',height:'2000px'}}>
+    <div style={{marginLeft:'300px',height:'1000px'}}>
         <h3 className='dshh'>Products</h3>
       <table className='ordtbl'>
         <tr>
