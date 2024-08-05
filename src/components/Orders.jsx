@@ -4,7 +4,7 @@ import "./orders.css";
 
 function Orders() {
   return (
-    <div style={{marginLeft:'100px',height:'1000px'}}>
+    <div style={{marginLeft:'300px',height:'1000px'}}>
       <h3 className='dshh'>Orders</h3>
       <input className='allinp' type='text' placeholder='Search'></input>
       <table className='ordtbl'>
